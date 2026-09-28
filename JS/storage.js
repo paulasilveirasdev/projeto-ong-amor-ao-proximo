@@ -9,8 +9,8 @@ if (formulario && toast) {
     const email = document.getElementById("email").value;
 
     const dadosColaborador = {
-      nome: nome,
-      email: email,
+      nome,
+      email,
     };
 
     localStorage.setItem("colaborador", JSON.stringify(dadosColaborador));
